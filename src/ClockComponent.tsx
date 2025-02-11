@@ -6,7 +6,7 @@ interface ClockComponentProps {
   min: number;
   max: number;
   interval: number;
-  type: "Break" | "Session";
+  type: "break" | "session";
 }
 
 const ClockComponent: React.FC<ClockComponentProps> = ({
